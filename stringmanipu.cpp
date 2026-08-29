@@ -22,7 +22,7 @@ public:
 };
 
 int main() {
-    SM s("parth", "solanki");
+    SM s("Parth", "Solanki");
     +s;
     s.show();
 }
