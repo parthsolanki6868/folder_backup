@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 class base_one{
-    int x;
+    int x;   
     public:char y;
     protected:int z;
     public:base_one(){
@@ -26,5 +26,3 @@ int main (){
     obj.insert();
     obj.display();
 }
-
-
