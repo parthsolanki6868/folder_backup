@@ -1,16 +1,14 @@
 #include<iostream>
 using namespace std;
-int main (){
-    int base,exp;
-    int result=1;
-    cout<<"enter base:";
-    cin>>base;
-    cout<<"enter exponent:";
-    cin>>exp;
-    for(int i=1; i<=exp; i++)
+int main(){
+    int n,count=0;
+    cout<<"enter a number:";
+    cin>>n;
+    while (n!=0)
     {
-        result=result * base;
+        n=n/10;
+        count++;
     }
-    cout<<"result="<<result;
+    cout<<"number of digits="<<count;
     return 0;
 }
