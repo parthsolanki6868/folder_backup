@@ -30,7 +30,7 @@ class second{
 int main ()
 {
     first o1('y');
-    second o2=o1;
+    second o2=o1;     
     o1.display();
     o2.show();
     return 0;
