@@ -1,28 +1,22 @@
 
 #include <iostream>
 using namespace std;
-
 class student
 {
     int rollno;
-
-public:
-    student(int r)
+    public:student(int r)
     {
         rollno = r;
     }
-
     student(student &s)
     {
         rollno = s.rollno;
     }
-
     void display()
     {
         cout << "rollno " << rollno << endl;
     }
 };
-
 int main()
 {
     student s1(10);
