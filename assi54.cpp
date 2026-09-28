@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class calculator
 {
 public:
@@ -14,7 +13,6 @@ public:
         return a + b + c;
     }
 };
-
 int main()
 {
     calculator calc;
